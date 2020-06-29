@@ -1,13 +1,6 @@
 package net.teon.weatherapi;
 
+@lombok.Getter
 public class WeatherWindGust {
     private WeatherUnitData Speed;
-
-    public WeatherWindGust(WeatherUnitData speed) {
-        Speed = speed;
-    }
-
-    public WeatherUnitData getSpeed() {
-        return Speed;
-    }
 }
