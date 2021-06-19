@@ -4,6 +4,6 @@
 ```java
 Weather weather = WeatherAPI.getWeather("key","lang","locationID");  
 ```
-If you write `weather.` your ide will show methods. Go with that.      
+If you write `weather.` your ide should show the methods that you can use.
 
-I dont have a public repository for this project, just clone and use jar or use sources in your project. 
+I don't setup a public repository for this project, you can compile it yourself or use the sources directly in your project.
